@@ -8,7 +8,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 public class Start {
-    private static String newVersion = "6.4.7 Debug";
+    private static final String newVersion = "6.4.7 Debug";
 
     public static String getNewVersion() {
         return newVersion;
